@@ -133,14 +133,15 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.8);
 }
 
-#header .logo {
-  font-size: 32px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
+    #header .logo {
+        font-size: 32px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: lowercase;
+    }
 
 #header .logo a {
   color: #fff;
@@ -1398,13 +1399,14 @@ section {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-info h3 {
-  font-size: 28px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
+    #footer .footer-top .footer-info h3 {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: lowercase;
+    }
 
 #footer .footer-top .footer-info h3 span {
   color: #cc94ff;
