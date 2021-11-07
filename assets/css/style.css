@@ -619,7 +619,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #cc94ff;
+  color: #ffffff;
 }
 
 .features .icon-box p {
@@ -677,7 +677,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #cc94ff;
+  color: #ffffff;
 }
 
 .services .icon-box p {
