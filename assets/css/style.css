@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 #home .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #cc94ff;
+  color: #ffffff;
 }
 
 #home .icon-box h3 {
@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home .icon-box h3 a:hover {
-  color: #cc94ff;
+  color: #ffffff;
 }
 
 #home .icon-box:hover {
