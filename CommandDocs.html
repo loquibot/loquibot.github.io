@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <title>Adding, Editing, and Deleting commands from chat</title>
+    </head>
+
+
+    <body>
+        <h1>Adding, Editing, and Deleting commands from chat</h1>
+        <p>Command parameters are an optional way to specify cooldown, userlevel and aliases for a command</p>
+        <h2>Example:</h2>
+        <p>Alphalaneous: !commands add !schedule -ul=moderator -cd=5 @$(user), Alphalaneous streams sometimes.</p>
+        <p>This command can only be ran by moderators or above and has a 5 second cooldown</p>
+
+        <h2>Parameters:</h2>
+        <table style="width:100%">
+            <tr>
+                <th>Parameter</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>-ul / -userlevel</td>
+                <td>sets the userlevel the command can be ran at, leevels are everyone, subscriber, twitch_vip, moderator, and owner</td>
+            </tr>
+            <tr>
+                <td>-cd / -cooldown</td>
+                <td>sets the command cooldown</td>
+            </tr>
+            <tr>
+                <td>-a / -aliases</td>
+                <td>sets aliases of the command, comma separated</td>
+            </tr>
+        </table>
+    </body>
+</html>

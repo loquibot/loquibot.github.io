@@ -1,0 +1,106 @@
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <title>Variable Docs</title>
+    </head>
+
+
+    <body>
+        <h1>Variables</h1>
+        <p>Values you can place in your command to be replaced with something else.</p>
+        <h2>Example:</h2>
+        <h3>Message:</h3>
+        <p>Alphalaneous: !hug Nightbot</p>
+        <h3>Chat response:</h3>
+        <p>Command message: $(user) hugged $(query)</p>
+        <p>loquibot: Alphalaneous hugged Nightbot</p>
+        <h2>List of variables:</h2>
+        <table style="width:100%">
+            <tr>
+                <th>Variable</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>$(user)</td>
+                <td>returns the sender's name</td>
+            </tr>
+            <tr>
+                <td>$(touser)</td>
+                <td>returns the sender's name if there is no query</td>
+            </tr>
+            <tr>
+                <td>$(arg &lt;Number&gt;)</td>
+                <td>returns an argument from the message, example: $(arg 2) to get the 2nd word of the message</td>
+            </tr>
+            <tr>
+                <td>$(eval &lt;JavaScript code&gt;)</td>
+                <td>returns the result of the JavaScript code</td>
+            </tr>
+            <tr>
+                <td>$(displayname)</td>
+                <td>returns the sender's display name</td>
+            </tr>
+            <tr>
+                <td>$(userid)</td>
+                <td>returns the sender's user ID</td>
+            </tr>
+            <tr>
+                <td>$(userlevel)</td>
+                <td>returns the chat level of the sender (everyone, subscriber, twitch_vip, moderator, owner)</td>
+            </tr>
+            <tr>
+                <td>$(messageid)</td>
+                <td>returns the ID of the message</td>
+            </tr>
+            <tr>
+                <td>$(bwomp)</td>
+                <td>plays a bwomp sound effect, has no replacement text</td>
+            </tr>
+            <tr>
+                <td>$(level &lt;Position&gt; &lt;Attribute&gt;)</td>
+                <td>returns Geometry Dash level info of the position in the queue</td>
+            </tr>
+            <tr>
+                <td>$(channel)</td>
+                <td>returns the name of the channel</td>
+            </tr>
+            <tr>
+                <td>$(channelid)</td>
+                <td>returns the ID of the channel</td>
+            </tr>
+            <tr>
+                <td>$(count)</td>
+                <td>returns the amount of times the command was ran then increases it by one</td>
+            </tr>
+            <tr>
+                <td>$(query)</td>
+                <td>returns the text after the command</td>
+            </tr>
+            <tr>
+                <td>$(querystring)</td>
+                <td>returns the text after the command url encodeded</td>
+            </tr>
+            <tr>
+                <td>$(time &lt;Timezone&gt; &lt;Format&gt;)</td>
+                <td>returns the time (see Time Format and Timezones)</td>
+            </tr>
+            <tr>
+                <td>$(urlfetch &lt;URL&gt;)</td>
+                <td>returns the response from the URL</td>
+            </tr>
+            <tr>
+                <td>$(followage &lt;Username&gt;)</td>
+                <td>returns the follow age of a user</td>
+            </tr>
+            <tr>
+                <td>$(weather &lt;Location&gt;)</td>
+                <td>returns the weather of a location</td>
+            </tr>
+        </table>
+    </body>
+</html>
