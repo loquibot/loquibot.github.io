@@ -28,6 +28,34 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.table-alternate tr, td, th {
+    line-height: 30px;
+    border: none;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+
+.table-alternate tr:nth-child(odd) td {
+    background-color: #353535;
+}
+.table-alternate tr:nth-child(even) td {
+    background-color: #292929;
+}
+
+#center {
+    //position: absolute;
+    padding: 5%;
+    //height: 1000px;
+    box-sizing: border-box;
+}
+#padded {
+    padding: 10px 0% 15px 0%;
+}
+
+#link {
+    color: #cc94ff;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
