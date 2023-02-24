@@ -81,6 +81,10 @@
                 <th>Action</th>
             </tr>
             <tr>
+                <td>$(if[&lt;Condition&gt;] &lt;Text&gt; | &lt;Else Text&gt;)</td>
+                <td>evaluates a condition (Example: "$(if[1 < 2] do this | otherwise this)") and returns the first option if true, else the second option if false (optional)</td>
+            </tr>
+            <tr>
                 <td>$(user)</td>
                 <td>returns the sender's name</td>
             </tr>
@@ -101,6 +105,14 @@
                 <td>returns the sender's display name</td>
             </tr>
             <tr>
+                <td>$(instantrequest)</td>
+                <td>forces the ID sent with this action to go to the top of the queue (Geometry Dash)</td>
+            </tr>
+            <tr>
+                <td>$(request)</td>
+                <td>finds a level ID in the message and requests it (Geometry Dash)</td>
+            </tr>
+            <tr>
                 <td>$(userid)</td>
                 <td>returns the sender's user ID</td>
             </tr>
@@ -115,6 +127,14 @@
             <tr>
                 <td>$(bwomp)</td>
                 <td>plays a bwomp sound effect, has no replacement text</td>
+            </tr>
+            <tr>
+                <td>$(randomline &lt;Text File/Website&gt;)</td>
+                <td>returns a random line from a text document</td>
+            </tr>
+            <tr>
+                <td>$(sound &lt;mp3 File/Website&gt;)</td>
+                <td>plays a sound from an mp3 file</td>
             </tr>
             <tr>
                 <td>$(level &lt;Position&gt; &lt;Attribute&gt;)</td>
@@ -137,16 +157,44 @@
                 <td>returns the text after the command</td>
             </tr>
             <tr>
+                <td>$(tts &lt;Optional: Voice&gt; &lt;Text&gt;)</td>
+                <td>plays a text to speech sound with the input text</td>
+            </tr>
+            <tr>
+                <td>$(cheercount)</td>
+                <td>returns the count of bits within the message</td>
+            </tr>
+            <tr>
                 <td>$(querystring)</td>
                 <td>returns the text after the command url encodeded</td>
             </tr>
             <tr>
                 <td>$(time &lt;Timezone&gt; &lt;Format&gt;)</td>
-                <td>returns the time (see <a href="https://loquibot.com/TimeFormat.html">Time Format</a> and <a href="https://loquibot.com/Timezones.html">Timezones</a>)</td>
+                <td>returns the time (see <a id="link" href="https://loquibot.com/TimeFormat.html">Time Format</a> and <a id="link" href="https://loquibot.com/Timezones.html">Timezones</a>)</td>
             </tr>
             <tr>
                 <td>$(urlfetch &lt;URL&gt;)</td>
                 <td>returns the response from the URL</td>
+            </tr>
+            <tr>
+                <td>$(newline)</td>
+                <td>splits the text into a new message</td>
+            </tr>
+            <tr>
+                <td>$(foundword)</td>
+                <td>returns the word found when using keywords</td>
+            </tr>
+            <tr>
+                <td>$(randomviewer)</td>
+                <td>returns a random viewer from the viewer list</td>
+            </tr>
+            <tr>
+                <td>$(levelpercent)</td>
+                <td>returns the level percent of the level being played in Geometry Dash</td>
+            </tr>
+            <tr>
+                <td>$(emptymessage)</td>
+                <td>returns if the message after the command is empty or not (true or false)</td>
             </tr>
             <tr>
                 <td>$(followage &lt;Username&gt;)</td>
