@@ -1559,3 +1559,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+li {
+  padding: 5px;
+}
