@@ -142,6 +142,11 @@ a:hover {
     margin-right: 1rem; 
     margin-bottom: 1rem;
   }
+  .link-image-container img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
   .link-text-container #link-text-body {
     margin-top: 0;
     float: inline-start;
