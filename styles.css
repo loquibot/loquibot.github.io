@@ -113,6 +113,7 @@ a:hover {
 .link-image-container {
   float: left;
   height: 125px;
+  width: 125px;
   margin-right: 2rem; 
   position: relative;
 }
@@ -141,6 +142,7 @@ a:hover {
   }
   .link-image-container {
     height: 50px;
+    width: 50px;
     margin-right: 1rem; 
     margin-bottom: 1rem;
   }
